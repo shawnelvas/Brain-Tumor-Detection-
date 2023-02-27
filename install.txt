@@ -1,24 +1,10 @@
-
-# Requirements : Nvidia GPU card & and Cuda tool kit install
-# I am using this card : https://amzn.to/3mTa7HX
+Download  and install anaconda  
+we need to use the conda kernel in jupyter to run the necessary code since the conda has lot of built in libraries we can just import necessary libaries 
 # Working Anaconda enviroment
 
-conda create -n Brain python=3.7
-conda activate Brain
 
-pip install tensorflow
-pip install tensorflow-gpu
-
-pip install numpy
-pip install pillow
-pip install SciPy
-pip install matplotlib
-pip install imutils
-pip install pandas
-pip install opencv-python
-
+Download the  dataset from the given link
 
 DataSet : 
 =========
-
 https://www.dropbox.com/s/jztol5j7hvm2w96/brain_tumor%20data%20set.zip
